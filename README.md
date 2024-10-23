@@ -26,7 +26,7 @@ spring.data.mongodb.database=weatherdb
 
 **Running the Application**
 
-Clone the repository:**git clone https://github.com/sanjay0606/ruleEngine.git**
+Clone the repository:**git clone https://github.com/sanjay0606/weather-monitoring-app-backend.git**
 
 **Build the project using Maven:** mvn clean install
 
@@ -35,3 +35,29 @@ Clone the repository:**git clone https://github.com/sanjay0606/ruleEngine.git**
 The application will start and be accessible on **http://localhost:8080.**
 
 **BASE_URL : http://localhost:8080/api/temperature**
+
+**Dependencies**
+
+The project relies on the following dependencies:
+
+<dependencies>
+  
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-mongodb</artifactId>
+	</dependency>
+
+  
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+	<dependency>
+
+ 
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+	</dependency>
+ 
+</dependencies>
